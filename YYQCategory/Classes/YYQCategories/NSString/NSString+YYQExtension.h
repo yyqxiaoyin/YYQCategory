@@ -114,4 +114,14 @@
 
 +(BOOL)isContainsTwoEmoji:(NSString *)string;
 
+/**
+ *  设置行距和字间距
+ *
+ *  @param lineSpacing       行距
+ *  @param characterSpaceing 字间距
+ *
+ *  @return AttributedString  返回富文本
+ */
+- (NSMutableAttributedString * )setAttributedWithLineSpacing:(CGFloat)lineSpacing andCharacterSpaceing:(CGFloat)characterSpaceing;
+
 @end

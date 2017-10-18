@@ -5,7 +5,6 @@ target 'YYQCategory_Example' do
 
   target 'YYQCategory_Tests' do
     inherit! :search_paths
-
     
   end
 end

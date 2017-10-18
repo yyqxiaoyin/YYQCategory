@@ -97,4 +97,9 @@
     free(ivarList);
 }
 
++ (NSString *)yq_stringForClass{
+    
+    return NSStringFromClass(self);
+}
+
 @end

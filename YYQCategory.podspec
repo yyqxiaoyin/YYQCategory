@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 常用类别,收集一些方便用于开发的类别
                        DESC
 
-  s.homepage         = 'https://gitee.com/yyqxiaoyin/YYQCategory'
+  s.homepage         = 'https://github.com/yyqxiaoyin/YYQCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yyqxiaoyin' => '357491060@qq.com' }
-  s.source           = { :git => 'https://gitee.com/yyqxiaoyin/YYQCategory.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yyqxiaoyin/YYQCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.2'

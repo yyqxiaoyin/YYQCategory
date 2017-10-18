@@ -7,6 +7,7 @@
 
 #import "NSString+YYQExtension.h"
 #import "NSData+YYQExtension.h"
+#import <CoreText/CoreText.h>
 
 @implementation NSString (YYQExtension)
 
@@ -319,4 +320,23 @@
      }];
     return isEomji;
 }
+
+- (NSMutableAttributedString *)setAttributedWithLineSpacing:(CGFloat)lineSpacing andCharacterSpaceing:(CGFloat)characterSpaceing
+{
+    
+    NSMutableAttributedString * attributedString = [[NSMutableAttributedString alloc] initWithString:self];
+    
+    NSMutableParagraphStyle * paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    //设置行距
+    [paragraphStyle setLineSpacing:lineSpacing];
+    
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [self length])];
+    //设置字间距
+    long   number = characterSpaceing;
+    CFNumberRef num = CFNumberCreate(kCFAllocatorDefault,kCFNumberSInt64Type,&number);
+    [attributedString addAttribute:(id)kCTKernAttributeName value:(__bridge id)num range:NSMakeRange(0,[attributedString length])];
+    CFRelease(num);
+    return attributedString;
+}
+
 @end

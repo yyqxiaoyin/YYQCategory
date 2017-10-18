@@ -23,5 +23,8 @@
 #import "YYQMacros.h"
 #import "NSObject+PropertyString.h"
 #import "NSObject+YYQExtension.h"
+#import "UIBarButtonItem+YYQExtension.h"
+#import "UILabel+YYQExtension.h"
+#import "UIScrollView+YYQExtension.h"
 
 #endif /* YYQCategories_h */

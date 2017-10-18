@@ -52,6 +52,7 @@ push_git_tags
 pod_lib_lint()
 
 #    pod repo push XXX  xxx.podspec
-pod_push(path: "#{targetName}.podspec", repo: "YYQPodSpecs")
+#pod_push(path: "#{targetName}.podspec", repo: "YYQPodSpecs")
+pod_push
 
 end

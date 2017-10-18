@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "常用类别",
   "description": "常用类别,收集一些方便用于开发的类别",
-  "homepage": "https://gitee.com/yyqxiaoyin/YYQCategory",
+  "homepage": "https://github.com/yyqxiaoyin/YYQCategory",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yyqxiaoyin": "357491060@qq.com"
   },
   "source": {
-    "git": "https://gitee.com/yyqxiaoyin/YYQCategory.git",
+    "git": "https://github.com/yyqxiaoyin/YYQCategory.git",
     "tag": "0.1.0"
   },
   "platforms": {
