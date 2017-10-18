@@ -8,7 +8,6 @@
 
 #import "YYQViewController.h"
 #import "YYQCategories.h"
-#import "MJRefresh.h"
 
 @interface YYQViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -27,13 +26,6 @@
     self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-       
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self.tableView.mj_header endRefreshing];
-        });
-        
-    }];
     
     NSLog(@"%lu",self.tableView.contentInsetAdjustmentBehavior);
     self.tableView.isContentInsetAdjustmentNever = NO;

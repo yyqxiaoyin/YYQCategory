@@ -29,7 +29,9 @@ static const void * kIsContentInsetAdjustmentNeverKey = "isContentInsetAdjustmen
                 self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
             }
         }else{
-            self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentAutomatic;
+            if (@available(iOS 11.0, *)) {
+                self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+            }
         }
     }
     objc_setAssociatedObject(self, kIsContentInsetAdjustmentNeverKey, [NSNumber numberWithBool:isContentInsetAdjustmentNever], OBJC_ASSOCIATION_ASSIGN);
