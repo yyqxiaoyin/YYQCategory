@@ -1,0 +1,6 @@
+framework module Pods_YYQCategory_Example {
+  umbrella header "Pods-YYQCategory_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

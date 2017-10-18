@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YYQCategory'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YYQCategory.'
+  s.summary          = '常用类别'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+常用类别,收集一些方便用于开发的类别
                        DESC
 
-  s.homepage         = 'https://github.com/yyqxiaoyin/YYQCategory'
+  s.homepage         = 'https://gitee.com/yyqxiaoyin/YYQCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yyqxiaoyin' => '357491060@qq.com' }
-  s.source           = { :git => 'https://github.com/yyqxiaoyin/YYQCategory.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/yyqxiaoyin/YYQCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.2'
 
   s.source_files = 'YYQCategory/Classes/**/*'
   

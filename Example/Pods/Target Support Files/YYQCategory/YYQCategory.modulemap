@@ -1,0 +1,6 @@
+framework module YYQCategory {
+  umbrella header "YYQCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

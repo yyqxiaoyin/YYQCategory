@@ -1,5 +1,5 @@
 use_frameworks!
-
+platform :ios, '8.2'
 target 'YYQCategory_Example' do
   pod 'YYQCategory', :path => '../'
 

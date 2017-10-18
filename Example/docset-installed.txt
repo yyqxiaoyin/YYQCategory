@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/mopon/Library/Developer/Shared/Documentation/DocSets/com.yyqxiaoyin.yyqcategory.YYQCategory.docset
+Time: 2017-10-18 06:52:56 +0000

@@ -1,0 +1,16 @@
+PODS:
+  - YYQCategory (0.1.0)
+
+DEPENDENCIES:
+  - YYQCategory (from `../`)
+
+EXTERNAL SOURCES:
+  YYQCategory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YYQCategory: e2825a6354ab23c00cc283d03f302f7b2cef0013
+
+PODFILE CHECKSUM: bb9dc1858d06052e8d9b0c37a4862b0ee4a72f2b
+
+COCOAPODS: 1.4.0.beta.1
