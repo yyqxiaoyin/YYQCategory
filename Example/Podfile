@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YYQCategory_Example' do
+  pod 'YYQCategory', :path => '../'
+
+  target 'YYQCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
