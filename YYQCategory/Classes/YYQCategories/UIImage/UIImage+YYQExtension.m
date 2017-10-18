@@ -65,7 +65,8 @@
 +(UIImage *)imageWithAnimatedGIFName:(NSString *)name{
     CGFloat scale = [UIScreen mainScreen].scale;
     if (scale >1.0f) {
-        NSString *retinaPath = [[NSBundle mainBundle]pathForResource:[name stringByAppendingString:[NSString stringWithFormat:@"@%lux",(NSInteger)scale]] ofType:@"gif"];
+        NSInteger scaleI = (NSInteger)scale;
+        NSString *retinaPath = [[NSBundle mainBundle]pathForResource:[name stringByAppendingString:[NSString stringWithFormat:@"@%zdx",scaleI]] ofType:@"gif"];
         
         NSData *data = [NSData dataWithContentsOfFile:retinaPath];
         
