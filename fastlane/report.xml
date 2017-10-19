@@ -5,49 +5,49 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: cocoapods" time="3.927046">
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="2.762747">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_add" time="0.040177">
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.042764">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.071066">
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.066639">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="8.295101">
+      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="73.151978">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.013724">
+      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.017395">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: remove_tag" time="5.563632">
+      <testcase classname="fastlane.lanes" name="5: remove_tag" time="6.643317">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.018519">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.01596">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="5.104215">
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="5.276636">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="46.342796">
+      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="48.619696">
         
-          <failure message="/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:234:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:230:in `chdir'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:230:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:148:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/fast_file.rb:146:in `method_missing'&#10;Fastfile:52:in `block in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/lane_manager.rb:54:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/commands_generator.rb:104:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:153:in `run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.5/lib/commander/runner.rb:476:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:66:in `run!'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.5/lib/commander/delegates.rb:15:in `run!'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/commands_generator.rb:303:in `run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/cli_tools_distributor.rb:66:in `take_off'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod lib lint' was 1 instead of 0.&#10;&#10; -&gt; YYQCategory -&gt; YYQCategory (0.1.0)&#10;    - ERROR | [iOS] file patterns: The `public_header_files` pattern did not match any file.&#10;    - ERROR | [YYQCategory/CALayer, YYQCategory/NSArray, YYQCategory/NSData, and more...] file patterns: The `source_files` pattern did not match any file.&#10;&#10;[!] YYQCategory did not pass validation, due to 2 errors.&#10;You can use the `--no-clean` option to inspect any issue.&#10;" />
+          <failure message="/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:234:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:230:in `chdir'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:230:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:148:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/fast_file.rb:146:in `method_missing'&#10;Fastfile:52:in `block in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/lane_manager.rb:54:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/commands_generator.rb:104:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:153:in `run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.5/lib/commander/runner.rb:476:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:66:in `run!'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.5/lib/commander/delegates.rb:15:in `run!'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/commands_generator.rb:303:in `run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/fastlane/lib/fastlane/cli_tools_distributor.rb:66:in `take_off'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.62.0/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod lib lint' was 1 instead of 0.&#10;&#10; -&gt; YYQCategory -&gt; YYQCategory (0.1.0)&#10;    - ERROR | [YYQCategory/NSObject, YYQCategory/NSString, YYQCategory/UIImageView, and more...] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.&#10;    - NOTE  | [YYQCategory/NSObject] xcodebuild:  /Users/mopon/Desktop/Private/YYQCategory/YYQCategory/Classes/YYQCategories/NSObject/NSObject+PropertyString.m:11:9: fatal error: 'YYQMacros.h' file not found&#10;    - NOTE  | [YYQCategory/NSString] xcodebuild:  /Users/mopon/Desktop/Private/YYQCategory/YYQCategory/Classes/YYQCategories/NSString/NSString+YYQExtension.m:9:9: fatal error: 'NSData+YYQExtension.h' file not found&#10;    - NOTE  | [YYQCategory/UIImageView] xcodebuild:  /Users/mopon/Desktop/Private/YYQCategory/YYQCategory/Classes/YYQCategories/UIImageView/UIImageView+YYQExtension.m:10:9: fatal error: 'UIImage+YYQExtension.h' file not found&#10;    - NOTE  | [YYQCategory/UIScrollView] xcodebuild:  /Users/mopon/Desktop/Private/YYQCategory/YYQCategory/Classes/YYQCategories/UIScrollView/UIScrollView+YYQExtension.m:10:9: fatal error: 'NSObject+YYQExtension.h' file not found&#10;&#10;[!] YYQCategory did not pass validation, due to 1 error.&#10;You can use the `--no-clean` option to inspect any issue.&#10;" />
         
       </testcase>
     

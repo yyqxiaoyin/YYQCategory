@@ -1,37 +1,5 @@
 PODS:
-  - YYQCategory (0.1.0):
-    - YYQCategory/CALayer (= 0.1.0)
-    - YYQCategory/NSArray (= 0.1.0)
-    - YYQCategory/NSData (= 0.1.0)
-    - YYQCategory/NSDate (= 0.1.0)
-    - YYQCategory/NSObject (= 0.1.0)
-    - YYQCategory/NSString (= 0.1.0)
-    - YYQCategory/UIApplication (= 0.1.0)
-    - YYQCategory/UIBarButtonItem (= 0.1.0)
-    - YYQCategory/UIButton (= 0.1.0)
-    - YYQCategory/UIColor (= 0.1.0)
-    - YYQCategory/UIFont (= 0.1.0)
-    - YYQCategory/UIImage (= 0.1.0)
-    - YYQCategory/UIImageView (= 0.1.0)
-    - YYQCategory/UILabel (= 0.1.0)
-    - YYQCategory/UIScrollView (= 0.1.0)
-    - YYQCategory/UIView (= 0.1.0)
-  - YYQCategory/CALayer (0.1.0)
-  - YYQCategory/NSArray (0.1.0)
-  - YYQCategory/NSData (0.1.0)
-  - YYQCategory/NSDate (0.1.0)
-  - YYQCategory/NSObject (0.1.0)
-  - YYQCategory/NSString (0.1.0)
-  - YYQCategory/UIApplication (0.1.0)
-  - YYQCategory/UIBarButtonItem (0.1.0)
-  - YYQCategory/UIButton (0.1.0)
-  - YYQCategory/UIColor (0.1.0)
-  - YYQCategory/UIFont (0.1.0)
-  - YYQCategory/UIImage (0.1.0)
-  - YYQCategory/UIImageView (0.1.0)
-  - YYQCategory/UILabel (0.1.0)
-  - YYQCategory/UIScrollView (0.1.0)
-  - YYQCategory/UIView (0.1.0)
+  - YYQCategory (0.1.0)
 
 DEPENDENCIES:
   - YYQCategory (from `../`)
@@ -41,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YYQCategory: c94b2da0e4f7834e66df8135e9daa35e27683da0
+  YYQCategory: 42d2dcbc4eb85d276ebebc0f9e0f68df81ce8047
 
 PODFILE CHECKSUM: 0e11db44d5c2a66beb5380656bd3e8db60535863
 
