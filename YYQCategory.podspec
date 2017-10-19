@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.2'
 
-  s.source_files = 'YYQCategory/Classes/**/*'
+  s.source_files = 'YYQCategory/Classes/YYQCategories.{h}','YYQCategory/Classes/YYQMacros.{h}'
 
   s.subspec 'CALayer' do |ss|
   ss.source_files = "YYQCategory/Classes/CALayer/CALayer+YYQExtension.{h,m}"
@@ -38,6 +38,44 @@ Pod::Spec.new do |s|
   s.subspec 'NSArray' do |ss|
   ss.source_files = "YYQCategory/Classes/NSArray/NSArray+YYQExtension.{h,m}"
   end
+  s.subspec 'NSData' do |ss|
+  ss.source_files = "YYQCategory/Classes/NSData/NSData+YYQExtension.{h,m}"
+  end
+  s.subspec 'NSDate' do |ss|
+  ss.source_files = "YYQCategory/Classes/NSDate/NSDate+YYQExtension.{h,m}"
+  end
+  s.subspec 'NSObject' do |ss|
+  ss.source_files = "YYQCategory/Classes/NSObject/NSObject+YYQExtension.{h,m}"
+  end
+  s.subspec 'UIApplication' do |ss|
+  ss.source_files = "YYQCategory/Classes/UIApplication/UIApplication+YYQExtension.{h,m}"
+  end
+  s.subspec 'UIBarButtonItem' do |ss|
+  ss.source_files = "YYQCategory/Classes/UIBarButtonItem/UIBarButtonItem+YYQExtension.{h,m}"
+  end
+  s.subspec 'UIButton' do |ss|
+  ss.source_files = "YYQCategory/Classes/UIButton/UIButton+YYQExtension.{h,m}"
+  end
+  s.subspec 'UIFont' do |ss|
+  ss.source_files = "YYQCategory/Classes/UIFont/UIFont+YYQExtension.{h,m}"
+  end
+  s.subspec 'UIImage' do |ss|
+  ss.source_files = "YYQCategory/Classes/UIImage/UIImage+YYQExtension.{h,m}"
+  end
+  s.subspec 'UIImageView' do |ss|
+  ss.source_files = "YYQCategory/Classes/UIImageView/UIImageView+YYQExtension.{h,m}"
+  end
+  s.subspec 'UILabel' do |ss|
+  ss.source_files = "YYQCategory/Classes/UILabel/UILabel+YYQExtension.{h,m}"
+  end
+  s.subspec 'UIScrollView' do |ss|
+  ss.source_files = "YYQCategory/Classes/UIScrollView/UIScrollView+YYQExtension.{h,m}"
+  end
+  s.subspec 'UIView' do |ss|
+  ss.source_files = "YYQCategory/Classes/UIView/UIView+YYQExtension.{h,m}"
+  end
+
+
 
 
 

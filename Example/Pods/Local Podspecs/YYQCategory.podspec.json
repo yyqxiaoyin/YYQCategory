@@ -18,7 +18,10 @@
   "platforms": {
     "ios": "8.2"
   },
-  "source_files": "YYQCategory/Classes/**/*",
+  "source_files": [
+    "YYQCategory/Classes/YYQCategories.{h}",
+    "YYQCategory/Classes/YYQMacros.{h}"
+  ],
   "subspecs": [
     {
       "name": "CALayer",
@@ -27,6 +30,54 @@
     {
       "name": "NSArray",
       "source_files": "YYQCategory/Classes/NSArray/NSArray+YYQExtension.{h,m}"
+    },
+    {
+      "name": "NSData",
+      "source_files": "YYQCategory/Classes/NSData/NSData+YYQExtension.{h,m}"
+    },
+    {
+      "name": "NSDate",
+      "source_files": "YYQCategory/Classes/NSDate/NSDate+YYQExtension.{h,m}"
+    },
+    {
+      "name": "NSObject",
+      "source_files": "YYQCategory/Classes/NSObject/NSObject+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UIApplication",
+      "source_files": "YYQCategory/Classes/UIApplication/UIApplication+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UIBarButtonItem",
+      "source_files": "YYQCategory/Classes/UIBarButtonItem/UIBarButtonItem+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UIButton",
+      "source_files": "YYQCategory/Classes/UIButton/UIButton+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UIFont",
+      "source_files": "YYQCategory/Classes/UIFont/UIFont+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "YYQCategory/Classes/UIImage/UIImage+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UIImageView",
+      "source_files": "YYQCategory/Classes/UIImageView/UIImageView+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UILabel",
+      "source_files": "YYQCategory/Classes/UILabel/UILabel+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UIScrollView",
+      "source_files": "YYQCategory/Classes/UIScrollView/UIScrollView+YYQExtension.{h,m}"
+    },
+    {
+      "name": "UIView",
+      "source_files": "YYQCategory/Classes/UIView/UIView+YYQExtension.{h,m}"
     }
   ]
 }
