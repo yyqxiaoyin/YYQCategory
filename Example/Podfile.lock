@@ -1,29 +1,5 @@
 PODS:
-  - YYQCategory (0.1.0):
-    - YYQCategory/CALayer (= 0.1.0)
-    - YYQCategory/NSArray (= 0.1.0)
-    - YYQCategory/NSData (= 0.1.0)
-    - YYQCategory/NSDate (= 0.1.0)
-    - YYQCategory/NSObject (= 0.1.0)
-    - YYQCategory/UIApplication (= 0.1.0)
-    - YYQCategory/UIBarButtonItem (= 0.1.0)
-    - YYQCategory/UIButton (= 0.1.0)
-    - YYQCategory/UIColor (= 0.1.0)
-    - YYQCategory/UIFont (= 0.1.0)
-    - YYQCategory/UILabel (= 0.1.0)
-    - YYQCategory/UIView (= 0.1.0)
-  - YYQCategory/CALayer (0.1.0)
-  - YYQCategory/NSArray (0.1.0)
-  - YYQCategory/NSData (0.1.0)
-  - YYQCategory/NSDate (0.1.0)
-  - YYQCategory/NSObject (0.1.0)
-  - YYQCategory/UIApplication (0.1.0)
-  - YYQCategory/UIBarButtonItem (0.1.0)
-  - YYQCategory/UIButton (0.1.0)
-  - YYQCategory/UIColor (0.1.0)
-  - YYQCategory/UIFont (0.1.0)
-  - YYQCategory/UILabel (0.1.0)
-  - YYQCategory/UIView (0.1.0)
+  - YYQCategory (0.1.0)
 
 DEPENDENCIES:
   - YYQCategory (from `../`)
@@ -33,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YYQCategory: feaa267cb5f746a1e9741ffe9c0cd2498c03e63d
+  YYQCategory: ac9eda32cff55136c5ae1cd8275ce0152c151fbd
 
 PODFILE CHECKSUM: 0e11db44d5c2a66beb5380656bd3e8db60535863
 
