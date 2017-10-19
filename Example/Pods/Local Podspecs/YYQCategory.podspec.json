@@ -18,71 +18,70 @@
   "platforms": {
     "ios": "8.2"
   },
-  "public_header_files": "Pod/Classes/**/*.h",
   "subspecs": [
     {
       "name": "CALayer",
-      "source_files": "YYQCategory/Classes/YYQCategory/CALayer/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/CALayer/**/*"
     },
     {
       "name": "NSArray",
-      "source_files": "YYQCategory/Classes/YYQCategory/NSArray/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/NSArray/**/*"
     },
     {
       "name": "NSData",
-      "source_files": "YYQCategory/Classes/YYQCategory/NSData/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/NSData/**/*"
     },
     {
       "name": "NSDate",
-      "source_files": "YYQCategory/Classes/YYQCategory/NSDate/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/NSDate/**/*"
     },
     {
       "name": "NSObject",
-      "source_files": "YYQCategory/Classes/YYQCategory/NSObject/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/NSObject/**/*"
     },
     {
       "name": "NSString",
-      "source_files": "YYQCategory/Classes/YYQCategory/NSString/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/NSString/**/*"
     },
     {
       "name": "UIApplication",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIApplication/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIApplication/**/*"
     },
     {
       "name": "UIBarButtonItem",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIBarButtonItem/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIBarButtonItem/**/*"
     },
     {
       "name": "UIButton",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIButton/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIButton/**/*"
     },
     {
       "name": "UIColor",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIColor/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIColor/**/*"
     },
     {
       "name": "UIFont",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIFont/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIFont/**/*"
     },
     {
       "name": "UIImage",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIImage/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIImage/**/*"
     },
     {
       "name": "UIImageView",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIImageView/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIImageView/**/*"
     },
     {
       "name": "UILabel",
-      "source_files": "YYQCategory/Classes/YYQCategory/UILabel/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UILabel/**/*"
     },
     {
       "name": "UIScrollView",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIScrollView/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIScrollView/**/*"
     },
     {
       "name": "UIView",
-      "source_files": "YYQCategory/Classes/YYQCategory/UIView/**/*"
+      "source_files": "YYQCategory/Classes/YYQCategories/UIView/**/*"
     }
   ]
 }

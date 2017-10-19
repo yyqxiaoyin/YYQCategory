@@ -29,8 +29,6 @@
 #import "UILabel+YYQExtension.h"
 #import "UIScrollView+YYQExtension.h"
 #import "UIView+YYQExtension.h"
-#import "YYQCategories.h"
-#import "YYQMacros.h"
 
 FOUNDATION_EXPORT double YYQCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYQCategoryVersionString[];

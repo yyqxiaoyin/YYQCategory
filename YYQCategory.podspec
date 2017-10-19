@@ -30,55 +30,55 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.2'
 
-  # s.source_files = 'YYQCategory/Classes/**/*'
+#s.source_files = 'YYQCategory/Classes/YYQCategories/**/*.h'
 
   s.subspec 'CALayer' do |layer|
-  layer.source_files = "YYQCategory/Classes/YYQCategory/CALayer/**/*"
+  layer.source_files = "YYQCategory/Classes/YYQCategories/CALayer/**/*"
   end
   s.subspec 'NSArray' do |array|
-  array.source_files = "YYQCategory/Classes/YYQCategory/NSArray/**/*"
+  array.source_files = "YYQCategory/Classes/YYQCategories/NSArray/**/*"
   end
   s.subspec 'NSData' do |data|
-  data.source_files = "YYQCategory/Classes/YYQCategory/NSData/**/*"
+  data.source_files = "YYQCategory/Classes/YYQCategories/NSData/**/*"
   end
   s.subspec 'NSDate' do |date|
-  date.source_files = "YYQCategory/Classes/YYQCategory/NSDate/**/*"
+  date.source_files = "YYQCategory/Classes/YYQCategories/NSDate/**/*"
   end
   s.subspec 'NSObject' do |object|
-  object.source_files = "YYQCategory/Classes/YYQCategory/NSObject/**/*"
+  object.source_files = "YYQCategory/Classes/YYQCategories/NSObject/**/*"
   end
   s.subspec 'NSString' do |string|
-  string.source_files = "YYQCategory/Classes/YYQCategory/NSString/**/*"
+  string.source_files = "YYQCategory/Classes/YYQCategories/NSString/**/*"
   end
   s.subspec 'UIApplication' do |application|
-  application.source_files = "YYQCategory/Classes/YYQCategory/UIApplication/**/*"
+  application.source_files = "YYQCategory/Classes/YYQCategories/UIApplication/**/*"
   end
   s.subspec 'UIBarButtonItem' do |barButtonItem|
-  barButtonItem.source_files = "YYQCategory/Classes/YYQCategory/UIBarButtonItem/**/*"
+  barButtonItem.source_files = "YYQCategory/Classes/YYQCategories/UIBarButtonItem/**/*"
   end
   s.subspec 'UIButton' do |button|
-  button.source_files = "YYQCategory/Classes/YYQCategory/UIButton/**/*"
+  button.source_files = "YYQCategory/Classes/YYQCategories/UIButton/**/*"
   end
   s.subspec 'UIColor' do |color|
-  color.source_files = "YYQCategory/Classes/YYQCategory/UIColor/**/*"
+  color.source_files = "YYQCategory/Classes/YYQCategories/UIColor/**/*"
   end
   s.subspec 'UIFont' do |font|
-  font.source_files = "YYQCategory/Classes/YYQCategory/UIFont/**/*"
+  font.source_files = "YYQCategory/Classes/YYQCategories/UIFont/**/*"
   end
   s.subspec 'UIImage' do |image|
-  image.source_files = "YYQCategory/Classes/YYQCategory/UIImage/**/*"
+  image.source_files = "YYQCategory/Classes/YYQCategories/UIImage/**/*"
   end
   s.subspec 'UIImageView' do |imageView|
-  imageView.source_files = "YYQCategory/Classes/YYQCategory/UIImageView/**/*"
+  imageView.source_files = "YYQCategory/Classes/YYQCategories/UIImageView/**/*"
   end
   s.subspec 'UILabel' do |label|
-  label.source_files = "YYQCategory/Classes/YYQCategory/UILabel/**/*"
+  label.source_files = "YYQCategory/Classes/YYQCategories/UILabel/**/*"
   end
   s.subspec 'UIScrollView' do |scrollView|
-  scrollView.source_files = "YYQCategory/Classes/YYQCategory/UIScrollView/**/*"
+  scrollView.source_files = "YYQCategory/Classes/YYQCategories/UIScrollView/**/*"
   end
   s.subspec 'UIView' do |view|
-  view.source_files = "YYQCategory/Classes/YYQCategory/UIView/**/*"
+  view.source_files = "YYQCategory/Classes/YYQCategories/UIView/**/*"
   end
 
   
@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   #   'YYQCategory' => ['YYQCategory/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  #  s.public_header_files = 'Pod/Classes/**/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
