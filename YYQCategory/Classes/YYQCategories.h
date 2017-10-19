@@ -8,7 +8,6 @@
 
 #ifndef YYQCategories_h
 #define YYQCategories_h
-#import "NSArray+YYQExtension.h"
 #import "UIApplication+YYQExtension.h"
 #import "UIColor+YYQExtension.h"
 #import "NSData+YYQExtension.h"
@@ -26,5 +25,6 @@
 #import "UIBarButtonItem+YYQExtension.h"
 #import "UILabel+YYQExtension.h"
 #import "UIScrollView+YYQExtension.h"
+#import "NSArray+YYQExtension.h"
 
 #endif /* YYQCategories_h */
