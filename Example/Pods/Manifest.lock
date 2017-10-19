@@ -1,5 +1,9 @@
 PODS:
-  - YYQCategory (0.1.0)
+  - YYQCategory (0.1.0):
+    - YYQCategory/CALayer (= 0.1.0)
+    - YYQCategory/NSArray (= 0.1.0)
+  - YYQCategory/CALayer (0.1.0)
+  - YYQCategory/NSArray (0.1.0)
 
 DEPENDENCIES:
   - YYQCategory (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YYQCategory: cb14157013569676c2b4946f1a8794c55706e5e4
+  YYQCategory: 3216d64221eb37282a17a6f439b93d533ee2729c
 
 PODFILE CHECKSUM: 0e11db44d5c2a66beb5380656bd3e8db60535863
 

@@ -30,6 +30,8 @@
 #import "UIView+YYQExtension.h"
 #import "YYQCategories.h"
 #import "YYQMacros.h"
+#import "CALayer+YYQExtension.h"
+#import "NSArray+YYQExtension.h"
 
 FOUNDATION_EXPORT double YYQCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYQCategoryVersionString[];

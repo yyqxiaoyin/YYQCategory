@@ -32,6 +32,15 @@ Pod::Spec.new do |s|
 
   s.source_files = 'YYQCategory/Classes/**/*'
 
+  s.subspec 'CALayer' do |ss|
+  ss.source_files = "YYQCategory/Classes/CALayer/**/*"
+  end
+  s.subspec 'NSArray' do |ss|
+  ss.source_files = "YYQCategory/Classes/NSArray/**/*"
+  end
+
+
+
   
   # s.resource_bundles = {
   #   'YYQCategory' => ['YYQCategory/Assets/*.png']

@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.2"
   },
-  "source_files": "YYQCategory/Classes/**/*"
+  "source_files": "YYQCategory/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "CALayer",
+      "source_files": "YYQCategory/Classes/CALayer/**/*"
+    },
+    {
+      "name": "NSArray",
+      "source_files": "YYQCategory/Classes/NSArray/**/*"
+    }
+  ]
 }
