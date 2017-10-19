@@ -30,13 +30,63 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.2'
 
-  s.source_files = 'YYQCategory/Classes/**/*'
+  # s.source_files = 'YYQCategory/Classes/**/*'
+
+  s.subspec 'CALayer' do |layer|
+  layer.source_files = "YYQCategory/Classes/YYQCategory/CALayer/**/*"
+  end
+  s.subspec 'NSArray' do |array|
+  array.source_files = "YYQCategory/Classes/YYQCategory/NSArray/**/*"
+  end
+  s.subspec 'NSData' do |data|
+  data.source_files = "YYQCategory/Classes/YYQCategory/NSData/**/*"
+  end
+  s.subspec 'NSDate' do |date|
+  date.source_files = "YYQCategory/Classes/YYQCategory/NSDate/**/*"
+  end
+  s.subspec 'NSObject' do |object|
+  object.source_files = "YYQCategory/Classes/YYQCategory/NSObject/**/*"
+  end
+  s.subspec 'NSString' do |string|
+  string.source_files = "YYQCategory/Classes/YYQCategory/NSString/**/*"
+  end
+  s.subspec 'UIApplication' do |application|
+  application.source_files = "YYQCategory/Classes/YYQCategory/UIApplication/**/*"
+  end
+  s.subspec 'UIBarButtonItem' do |barButtonItem|
+  barButtonItem.source_files = "YYQCategory/Classes/YYQCategory/UIBarButtonItem/**/*"
+  end
+  s.subspec 'UIButton' do |button|
+  button.source_files = "YYQCategory/Classes/YYQCategory/UIButton/**/*"
+  end
+  s.subspec 'UIColor' do |color|
+  color.source_files = "YYQCategory/Classes/YYQCategory/UIColor/**/*"
+  end
+  s.subspec 'UIFont' do |font|
+  font.source_files = "YYQCategory/Classes/YYQCategory/UIFont/**/*"
+  end
+  s.subspec 'UIImage' do |image|
+  image.source_files = "YYQCategory/Classes/YYQCategory/UIImage/**/*"
+  end
+  s.subspec 'UIImageView' do |imageView|
+  imageView.source_files = "YYQCategory/Classes/YYQCategory/UIImageView/**/*"
+  end
+  s.subspec 'UILabel' do |label|
+  label.source_files = "YYQCategory/Classes/YYQCategory/UILabel/**/*"
+  end
+  s.subspec 'UIScrollView' do |scrollView|
+  scrollView.source_files = "YYQCategory/Classes/YYQCategory/UIScrollView/**/*"
+  end
+  s.subspec 'UIView' do |view|
+  view.source_files = "YYQCategory/Classes/YYQCategory/UIView/**/*"
+  end
+
   
   # s.resource_bundles = {
   #   'YYQCategory' => ['YYQCategory/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
