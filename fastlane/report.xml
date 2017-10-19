@@ -5,52 +5,52 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: cocoapods" time="1.800078">
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="4.913769">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_add" time="0.017454">
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.02815">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.115542">
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.073442">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="5.849322">
+      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="5.521087">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.021563">
+      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.010335">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: remove_tag" time="5.57106">
+      <testcase classname="fastlane.lanes" name="5: remove_tag" time="5.07278">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.017813">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.013114">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="5.370364">
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="7.222372">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="9.366324">
+      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="8.821152">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="9: pod_push" time="34.01219">
+      <testcase classname="fastlane.lanes" name="9: pod_push" time="67.814348">
         
       </testcase>
     

@@ -25,7 +25,6 @@
 #import "UIImage+ImageEffects.h"
 #import "UIImage+YYQExtension.h"
 #import "UIImageView+YYQExtension.h"
-#import "MPLabel.h"
 #import "UILabel+YYQExtension.h"
 #import "UIScrollView+YYQExtension.h"
 #import "UIView+YYQExtension.h"
