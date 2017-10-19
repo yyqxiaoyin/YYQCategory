@@ -18,9 +18,5 @@
   "platforms": {
     "ios": "8.2"
   },
-  "public_header_files": [
-    "YYQCategory/Classes/YYQCategories.h",
-    "YYQCategory/Classes/YYQMacros.h"
-  ],
   "source_files": "YYQCategory/Classes/**/*"
 }
