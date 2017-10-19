@@ -33,10 +33,10 @@ Pod::Spec.new do |s|
   s.source_files = 'YYQCategory/Classes/**/*'
 
   s.subspec 'CALayer' do |ss|
-  ss.source_files = "YYQCategory/Classes/CALayer/**/*"
+  ss.source_files = "YYQCategory/Classes/CALayer/CALayer+YYQExtension.{h,m}"
   end
   s.subspec 'NSArray' do |ss|
-  ss.source_files = "YYQCategory/Classes/NSArray/**/*"
+  ss.source_files = "YYQCategory/Classes/NSArray/NSArray+YYQExtension.{h,m}"
   end
 
 

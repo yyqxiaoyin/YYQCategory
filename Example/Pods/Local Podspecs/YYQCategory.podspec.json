@@ -22,11 +22,11 @@
   "subspecs": [
     {
       "name": "CALayer",
-      "source_files": "YYQCategory/Classes/CALayer/**/*"
+      "source_files": "YYQCategory/Classes/CALayer/CALayer+YYQExtension.{h,m}"
     },
     {
       "name": "NSArray",
-      "source_files": "YYQCategory/Classes/NSArray/**/*"
+      "source_files": "YYQCategory/Classes/NSArray/NSArray+YYQExtension.{h,m}"
     }
   ]
 }
