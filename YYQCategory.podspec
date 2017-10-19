@@ -30,7 +30,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.2'
 
-  s.source_files = 'YYQCategory/Classes/YYQCategories.{h}','YYQCategory/Classes/YYQMacros.{h}'
 
   s.subspec 'CALayer' do |ss|
   ss.source_files = "YYQCategory/Classes/CALayer/CALayer+YYQExtension.{h,m}"
@@ -76,7 +75,7 @@ Pod::Spec.new do |s|
   end
 
 
-
+s.source_files = 'YYQCategory/Classes/YYQCategories.{h}','YYQCategory/Classes/YYQMacros.{h}'
 
 
   
