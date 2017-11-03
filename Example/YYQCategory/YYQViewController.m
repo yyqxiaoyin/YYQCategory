@@ -23,15 +23,22 @@
     
     self.title = @"测试";
     
-    self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
+//    self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+//    self.tableView.delegate = self;
+//    self.tableView.dataSource = self;
+//
+//    NSLog(@"%lu",self.tableView.contentInsetAdjustmentBehavior);
+//    self.tableView.isContentInsetAdjustmentNever = YES;
+//    NSLog(@"%lu",self.tableView.contentInsetAdjustmentBehavior);
+//
+//    [self.view addSubview:self.tableView];
+    UILabel *label = [[UILabel alloc]init];
+    label.frame = CGRectMake(30, 100, 100, 300);
+    label.backgroundColor = [UIColor redColor];
+    [self.view addSubview:label];
     
-    NSLog(@"%lu",self.tableView.contentInsetAdjustmentBehavior);
-    self.tableView.isContentInsetAdjustmentNever = NO;
-    NSLog(@"%lu",self.tableView.contentInsetAdjustmentBehavior);
-    
-    [self.view addSubview:self.tableView];
+    label.text = @"12312312";
+    label.verticalAlignment = VerticalAlignmentBottom;
     
 }
 

@@ -44,7 +44,7 @@
 /**
    获取当前class的字符串
 
- @return 返回当前class的字符创
+ @return 返回当前class的字符串
  */
 + (NSString *)yq_stringForClass;
 

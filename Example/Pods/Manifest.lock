@@ -1,5 +1,5 @@
 PODS:
-  - YYQCategory (0.1.0)
+  - YYQCategory (1.0.0)
 
 DEPENDENCIES:
   - YYQCategory (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YYQCategory: cb14157013569676c2b4946f1a8794c55706e5e4
+  YYQCategory: a376308487251f8c55ca0546338090c6baaad745
 
 PODFILE CHECKSUM: 0e11db44d5c2a66beb5380656bd3e8db60535863
 
-COCOAPODS: 1.4.0.beta.1
+COCOAPODS: 1.4.0.beta.2

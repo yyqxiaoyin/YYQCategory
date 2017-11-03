@@ -18,8 +18,24 @@
  @param action 按钮点击触发方法
  @return UIBarButtonItem对象
  */
-+ (instancetype)yq_barBtnItemWithNmlImg:(NSString *)nmlImg
++ (instancetype)mp_barBtnItemWithNmlImg:(NSString *)nmlImg
                                  hltImg:(NSString *)hltImg
+                                 target:(id)target
+                                 action:(SEL)action;
+
+/**
+ *  返回指定样式导航条Item
+ *
+ *  @param nmlImg 正常状态的图片
+ *  @param hltImg 高度状态的图片
+ *  @param target 按钮taget
+ *  @param action 按钮点击触发方法
+ *
+ *  @return UIBarButtonItem
+ */
++ (instancetype)mp_barBtnItemWithNmlImg:(NSString *)nmlImg
+                                 hltImg:(NSString *)hltImg
+                                 selImg:(NSString *)selImg
                                  target:(id)target
                                  action:(SEL)action;
 
@@ -33,7 +49,7 @@
  @param action 按钮点击触发方法
  @return UIBarButtonItem对象
  */
-+ (instancetype)yq_barBtnItemWithTitle:(NSString *)title
++ (instancetype)mp_barBtnItemWithTitle:(NSString *)title
                             titleColor:(UIColor *)titleColor
                              titleFont:(UIFont *)titleFont
                                 target:(id)target

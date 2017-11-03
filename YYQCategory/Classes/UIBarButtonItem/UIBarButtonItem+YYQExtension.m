@@ -9,7 +9,7 @@
 
 @implementation UIBarButtonItem (YYQExtension)
 
-+ (instancetype)yq_barBtnItemWithNmlImg:(NSString *)nmlImg hltImg:(NSString *)hltImg target:(id)target action:(SEL)action{
++ (instancetype)mp_barBtnItemWithNmlImg:(NSString *)nmlImg hltImg:(NSString *)hltImg target:(id)target action:(SEL)action{
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     
     UIImage *nmlImage = [UIImage imageNamed:nmlImg];
@@ -24,7 +24,29 @@
     return [[UIBarButtonItem alloc] initWithCustomView:btn];
 }
 
-+ (instancetype)yq_barBtnItemWithTitle:(NSString *)title titleColor:(UIColor *)titleColor titleFont:(UIFont *)titleFont target:(id)target action:(SEL)action{
++ (instancetype)mp_barBtnItemWithNmlImg:(NSString *)nmlImg
+                                 hltImg:(NSString *)hltImg
+                                 selImg:(NSString *)selImg
+                                 target:(id)target
+                                 action:(SEL)action{
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    UIImage *nmlImage = [UIImage imageNamed:nmlImg];
+    
+    [btn setImage:nmlImage forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:selImg] forState:UIControlStateSelected];
+    [btn setImage:[UIImage imageNamed:hltImg] forState:UIControlStateHighlighted];
+    [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+    
+    btn.bounds = CGRectMake(0, 0,nmlImage.size.width,nmlImage.size.height  );
+    
+    return [[UIBarButtonItem alloc] initWithCustomView:btn];
+    
+}
+
++ (instancetype)mp_barBtnItemWithTitle:(NSString *)title titleColor:(UIColor *)titleColor titleFont:(UIFont *)titleFont target:(id)target action:(SEL)action{
     
     CGSize maxSize =  CGSizeMake(MAXFLOAT, MAXFLOAT);
     
