@@ -8,8 +8,6 @@
 #import "UILabel+YYQExtension.h"
 #import <objc/runtime.h>
 
-static const void * kVerticalAlignmentKey = "kVerticalAlignmentKey";
-
 @implementation UILabel (YYQExtension)
 
 -  (CGFloat)attributeTextHeightWithSize:(CGSize)size
