@@ -102,4 +102,8 @@
     return NSStringFromClass(self);
 }
 
++ (NSString *)mp_identifier{
+    return NSStringFromClass(self);
+}
+
 @end
