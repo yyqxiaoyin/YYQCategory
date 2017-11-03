@@ -47,5 +47,6 @@
  @return 返回当前class的字符串
  */
 + (NSString *)yq_stringForClass;
++ (NSString *)mp_identifier;
 
 @end
